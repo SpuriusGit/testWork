@@ -1,0 +1,15 @@
+/* Playfair display */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/* Gilroy */
+@font-face {
+    font-family: "Gilroy"; 
+    src: url(/fonts/Gilroy/Gilroy-Light.otf);
+    font-style: normal; 
+    font-weight: normal; 
+} 
+@font-face {
+    font-family: "GilroyBold"; 
+    src: url(/fonts/Gilroy/Gilroy-ExtraBold.otf);
+    font-style: normal; 
+    font-weight: normal; 
+} 
