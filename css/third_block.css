@@ -1,0 +1,90 @@
+/* third block */
+.third_block{
+    height: 530px;
+    width: 100%;
+    background-color: black;
+}
+.third_block h2{
+    color: white;
+    margin-top: 30px;
+}
+.stages_of_work{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: white;
+}
+.stages_line ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+/* circles */
+.stages_line ul li{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.stages_line ul li svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    top:-60px;
+}
+.stages_line ul li svg circle {
+    width: 150px;
+    height: 150px;
+    fill: black;
+    stroke-width: 5;
+    /* stroke: #AFAFAF; */
+    stroke: red;
+    -webkit-transform: rotate(-35deg);
+        -ms-transform: rotate(-35deg);
+            transform: rotate(-35deg);
+    -webkit-transform: translate(5px, 5px);
+        -ms-transform: translate(5px, 5px);
+            transform: translate(5px, 5px);
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    stroke-linecap: round;
+}
+.stages_line ul li svg circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: #AFAFAF;
+}
+.stages_line ul li svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 87) / 100);
+    stroke: #FFB800;
+}
+.stages_line ul li .step {
+    top: 35px;
+    left: 43px;
+    position: absolute;
+}
+.stages_line ul.stages_line__circles li::after{
+    content: '';
+    height: 2px;
+    width: 110%;
+    background-color: white;
+    display: block;
+    position: absolute;
+    top:45px;
+    left:90px;
+}
+.stages_line ul li:nth-child(6)::after{
+    display: none;
+}

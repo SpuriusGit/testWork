@@ -1,0 +1,254 @@
+@media (max-width: 575.98px) {
+    .stages_line ul.stages_line__circles li::after{
+       display: none;
+    }
+    .stages_line{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .stages_line ul li{
+        margin-top: 30px;
+    }
+    .header{
+        height: 100px;
+    }
+    .header_contacts{
+        height: 100px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .header_nav ul.burger_list{
+        top:100px !important;
+    }
+    .header_contacts ul{
+        margin: 10px auto;
+    }
+    .header_nav ul.header_nav__list{
+        top:100px;
+    }
+    .header_nav{
+        margin-top: 50px;
+    }
+    .our_advantages ul{
+        height: 100%;
+        width: 40%;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin: auto;
+    }
+    .our_advantages ul li{
+        height: 150px;
+        width: 150px;
+        margin: auto;
+    }
+    .stages_line ul{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 30%;
+        margin: 0 auto;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .third_block{
+        height: 100%;
+    }
+    .about_us__right_block div p{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .portfolio_right{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .portfolio_slider__icons{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    }
+    .portfolio_slider__icons li{
+        width: 30%;
+        margin: 20px;
+    }
+    .portfolio_slider__radio input{
+        margin: 5px;
+    }
+    .reviews_slider__item p{
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .review_slider__buttons{
+        width: 70%;
+    }
+    .sixth_block .contact_form{
+        height: 100%;
+        width: 80%;
+    }
+    .seventh_block{
+        height: 100%;
+    }
+    .seventh_block ul{
+        margin: 15px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .header_nav ul.burger_list{
+        top:100px;
+    }
+}
+@media (max-width: 767.98px) {
+    .intro_title{
+        width: 80%;
+    }
+    .portfolio{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .portfolio_left,.portfolio_right{
+        width: 80%;
+    }
+    .about_us__right_block p{
+        line-height: 15px;
+        font-size: 16px;
+    }
+    .about_us__right_block div{
+        width: 70%;
+    }
+    .header_nav .logo{
+        font-size: 30px;
+    }
+    .stages_line ul li::after{
+        width: 50%;
+    }
+    .reviews{
+        width: 100%;
+    }
+    .reviews_slider__item{
+        padding: 20px;
+    }
+    .header_nav ul.burger_list{
+        top:100px;
+    }
+}
+@media (max-width: 991.98px) {
+    .about_us__right_block p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .about_us__right_block div{
+        width: 70%;
+    }
+    .our_advantages li{
+        font-size: 16px;
+        text-align: center;
+    }
+    .portfolio{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .portfolio_left,.portfolio_right{
+        width: 80%;
+    }
+    .burger{
+        display: block;
+    }
+    .header_nav__list{
+        display: none;
+    }
+    .header_nav ul.burger_list{
+        display: none;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        text-align: center;
+        position: fixed;
+        top:55px;
+        left: 0;
+        height: 40%;
+        width: 50%;
+        background: rgba(26, 26, 27, 0.676);
+    }
+    .header_nav ul.burger_list li{
+        width: 70%;
+        margin: auto;
+    }
+    .header_nav ul.burger_list li:hover{
+        border:none
+    }
+    .stages_line ul li{
+        height: 100px;
+        width: 100px;
+    }
+    .stages_line ul li::after{
+        width: 60%;
+    }
+    .reviews{
+        width: 90%;
+    }
+}
+@media (max-width: 1199.98px) {
+    .about_us__right_block div{
+        width: 70%;
+    }
+    .stages_line ul li::after{
+        width: 80%;
+    }
+    .portfolio{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .portfolio_left,.portfolio_right{
+        width: 80%;
+    }
+    .reviews{
+        width: 80%;
+    }
+}

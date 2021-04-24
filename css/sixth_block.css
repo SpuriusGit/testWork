@@ -1,0 +1,77 @@
+.sixth_block{
+    height: 400px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #FFB800;
+}
+.sixth_block h2{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.sixth_block h4{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.contact_form{
+    height: 300px;
+    width: 50%;
+    margin:40px auto 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.inputs{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.inputs input{
+    width: 40%;
+}
+.contact_form input{
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 18px; 
+    margin: 20px 0;   
+}
+.contact_form input::-webkit-input-placeholder{
+    color:rgba(255, 255, 255, 0.72);
+}
+.contact_form input[type="submit"]{
+    height: 40px;
+    width: 130px;
+    background-color: white;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px;
+    color: #FFB800;
+    cursor: pointer;
+}

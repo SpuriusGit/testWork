@@ -1,0 +1,217 @@
+.first_block{
+    background-image: url(../img/first-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 55px;
+}
+/* header */
+.header{
+    position: fixed;
+    top:0;
+    width: 100%;
+    background: rgba(26, 26, 27, 0.623);
+    z-index: 999;
+}
+.header_contacts{
+    height: 55px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+.header_contacts li{
+    margin: 0 10px;
+    cursor: pointer;
+}
+.header_contacts__phonenumbers,.header_contacts__social{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    -ms-flex-item-align: center;
+        align-self: center;
+    margin: 0 30px;
+}
+/* header navigation */
+.header_nav{
+    height: 80px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    margin-bottom: 200px;
+}
+.header_nav .logo,.seventh_block .logo{
+    font-family: 'GilroyBold';
+    font-size: 24px;
+    font-weight: 900;
+    color: #FF9900;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: 80px;
+    cursor: pointer;
+}
+.header_nav ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    -ms-flex-item-align: center;
+        align-self: center;
+    letter-spacing: 0.07em;
+    width: 80%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    z-index: 999;
+}
+.header_nav li{
+    height: 30px;
+    cursor: pointer;
+}
+.header_nav ul.header_nav__list li:hover{
+    border-bottom: 2px solid #FF9900;
+    color: #FF9900;
+}
+.order_call{
+    height: 37px;
+    width: 166px;
+    background:inherit;
+    border: 2px solid #FF9900;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #FF9900;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    cursor: pointer;
+}
+/* burger */
+.burger{
+    height: 60px;
+    width: 60px;
+    border:3px solid #FF9900;
+    margin: 10px;
+    border-radius: 10px;
+    display: none;
+    cursor: pointer;
+}
+.burger span{
+    height: 3px;
+    width: 40px;
+    background-color: #FF9900;
+    display: block;
+    margin:11px auto;
+}
+/* intro */
+.intro{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 180px;
+}
+.intro_title{
+    width: 50%;
+}
+.intro_title h2{
+    color: white;
+    font-weight: 400;
+}
+.intro_title p{
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+.request{
+    height: 43px;
+    width: 166px;
+    background-color: #FF9900;
+    -webkit-box-shadow: 1px 1px 18px 4px rgba(255, 153, 0, 0.32);
+            box-shadow: 1px 1px 18px 4px rgba(255, 153, 0, 0.32);
+    border: none;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/* our_advantages */
+.our_advantages{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-backdrop-filter: blur(15px);
+            backdrop-filter: blur(15px);
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+}
+.our_advantages ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 170px;
+    width: 100%;
+    list-style:none;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+.our_advantages li:nth-child(1){background-image: url(../img/fix-price.png);}
+.our_advantages li:nth-child(2){background-image: url(../img/money-bag.png);}
+.our_advantages li:nth-child(3){background-image: url(../img/business-report.png);}
+.our_advantages li:nth-child(4){background-image: url(../img/fast.png);}
+.our_advantages li:nth-child(5){background-image: url(../img/guarantee.png);}
+.our_advantages li{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+    height: 100%;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: right;
+    line-height: 30px;
+}
