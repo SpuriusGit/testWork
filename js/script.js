@@ -31,11 +31,7 @@ const burgerButton = document.querySelector('.burger');
 const burgerMenu = document.querySelector('.burger_list');
 
 let check = false;
-burgerMenu.addEventListener('click',(event)=>{
-    if(event.target != event){
-        burgerMenu.style.display = 'none'
-    }
-})
+
 burgerButton.addEventListener('click',()=>{
     if(check == false){
         burgerMenu.style.display = 'flex';
